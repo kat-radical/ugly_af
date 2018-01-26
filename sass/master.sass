@@ -1,0 +1,48 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  color: blue
+  
+h1,h2,h3,h4
+  background: red
+  
+body, html
+  height: 100vh
+  
+
+.grid
+  display: grid
+  grid-template-columns: 1fr 1fr 4fr 1fr
+  grid-column-gap: 10px
+  height: 100vh
+  padding: 50px
+  
+.column 
+  background: blue
+  // height: 40px
+  
+h1
+  background: pink
+  text-align: center
+  grid-column: 1/4
+  
+  
+.vektor
+  background: red
+  height: 100%
+  display: grid
+  grid-template-columns: repeat(3,1fr)
+  grid-template-rows: repeat(4,1fr)
+  grid-gap: 10px
+  
+h2
+  grid-row: 2
+  background: white
+  
+h3
+  grid-row: 3/5
+  grid-column: 3
+  background: white
+  
+  
